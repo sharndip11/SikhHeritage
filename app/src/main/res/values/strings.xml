@@ -1,6 +1,18 @@
 <resources>
-    <string name="app_name">" SikhHeritage"</string>
-    <string name="action_settings">Settings</string>
-    <string name="drawer_opened">Select an Item</string>
-    <string name="drawer_closed">Sikh Heritage</string>
+    <string name="app_name">SikHeritage</string>
+    <string name="openDrawer">Open</string>
+    <string name="closeDrawer">Close</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="homeFragment">Bienvenu sur SikHeriatge</string>
+    <string name="gursikhjeevanFragment">  </string>
+    <string name="histoireFragment">Page Histoire</string>
+    <string name="fakrekaumFragment">Page Fakre Kaum</string>
+    <string name="gurdwaraFragment">Page Gurdwara</string>
+    <string name="biographieFragment">Page Biographie</string>
+    <string name="faqFragment">Page FAQ</string>
+    <string name="quizzFragment">Page Quizz</string>
+    <string name="actualiteFragment">Page Actualité</string>
+    <string name="caricatureFragment">Page Caricature</string>
+
 </resources>

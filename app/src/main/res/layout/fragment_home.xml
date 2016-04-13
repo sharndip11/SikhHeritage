@@ -1,0 +1,108 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="#ff9800"
+                android:textColor="#ffffff"
+                android:text="Bienvenue"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+                android:textStyle="bold"
+                android:textSize="33dp"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="125dp"
+                android:background="#ff9800"
+                android:textColor="#f0e5e5"
+                android:text="Bla bla bla\nBla bla bla\nBla bla bla\nBla bla bla\n" />
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:layout_width="fill_parent"
+                    android:layout_height="190dp"
+                    android:id="@+id/imageButton"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignEnd="@+id/imageButton3"
+                    android:clickable="true"
+                    android:layout_weight=".5"
+                    android:cropToPadding="true"
+                    android:nestedScrollingEnabled="false"
+                    android:onClick="setContentView"
+                    android:background="@drawable/vie_gur"/>
+
+                <ImageButton
+                    android:layout_width="fill_parent"
+                    android:layout_height="240dp"
+                    android:id="@+id/imageButton2"
+                    android:layout_weight=".5"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/imageButton"
+                    android:layout_marginLeft="-2dp"
+                    android:background="@drawable/histoire"/>
+
+                <ImageButton
+                    android:layout_width="170dp"
+                    android:layout_height="190dp"
+                    android:id="@+id/imageButton3"
+                    android:layout_weight=".5"
+                    android:layout_below="@+id/imageButton"
+                    android:layout_alignParentStart="false"
+                    android:layout_alignParentEnd="false"
+                    android:layout_marginTop="-5dp"
+                    android:background="@drawable/perso"/>
+
+                <ImageButton
+                    android:layout_width="fill_parent"
+                    android:layout_height="140dp"
+                    android:id="@+id/imageButton4"
+                    android:layout_weight=".5"
+                    android:layout_below="@+id/imageButton2"
+                    android:layout_toEndOf="@+id/imageButton3"
+                    android:layout_marginTop="-5dp"
+                    android:background="@drawable/temp"/>
+
+                <ImageButton
+                    android:layout_width="fill_parent"
+                    android:layout_height="140dp"
+                    android:id="@+id/imageButton5"
+                    android:layout_below="@+id/imageButton3"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="-5dp"
+                    android:background="@drawable/faq"/>
+
+                <ImageButton
+                    android:layout_width="fill_parent"
+                    android:layout_height="190dp"
+                    android:id="@+id/imageButton6"
+                    android:layout_below="@+id/imageButton5"
+                    android:layout_alignParentStart="false"
+                    android:layout_marginTop="-5dp"
+                    android:background="@drawable/quizz"
+                    android:layout_weight=".5"
+                    android:layout_alignEnd="@+id/imageButton3" />
+
+                <ImageButton
+                    android:layout_width="170dp"
+                    android:layout_height="190dp"
+                    android:id="@+id/imageButton7"
+                    android:layout_marginLeft="-2dp"
+                    android:layout_weight=".5"
+                    android:layout_alignTop="@+id/imageButton6"
+                    android:layout_alignParentEnd="true"
+                    android:layout_toEndOf="@+id/imageButton6"
+                    android:background="@drawable/actu" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
