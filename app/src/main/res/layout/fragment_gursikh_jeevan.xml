@@ -13,19 +13,92 @@
             android:layout_height="45dp"
             android:background="#ff9800"
             android:textColor="#ffffff"
-            android:text="La Vie d'un Gursikh"
+            android:text="@string/titre_vie_gur"
             android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
             android:textStyle="bold"
             android:textSize="33dp"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp" />
 
         <TextView
             android:layout_width="fill_parent"
-            android:layout_height="75dp"
-            android:text="New Text"
+            android:layout_height="wrap_content"
+            android:text="@string/desc_vie_gur"
             android:id="@+id/textView"
             android:layout_gravity="center_horizontal"
             android:background="#ff9800"
-            android:textColor="#ffffff" />
+            android:textColor="#ffffff"
+            android:textStyle="bold|italic"
+            android:textSize="16dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:padding="4dp" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1.0"
+            android:background="#ff9800"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Précédent"
+                android:id="@+id/previous"
+                android:layout_weight="0.5"
+                android:background="#1A237E"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Suivant"
+                android:id="@+id/next"
+                android:layout_weight="0.5"
+                android:background="#1A237E"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ff9800"
+                    android:textColor="#ffffff"
+                    android:text="@string/vie_gur_1"
+                    android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+                    android:textSize="14dp"
+                    android:id="@+id/vie_gur_1"
+                    android:enabled="true"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginLeft="1dp"
+                    android:allowUndo="false"
+                    android:padding="4dp"
+                    android:singleLine="false" />
+
+                <ListView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/listView"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginBottom="1dp" />
+
+            </LinearLayout>
     </LinearLayout>
 </ScrollView>

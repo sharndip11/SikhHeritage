@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#ff9800">
+    <Button
+        android:id="@+id/remove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="Effacer"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="5dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:background="#1A237E"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp" />
+    <TextView
+        android:id="@+id/textout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@id/remove"
+        android:layout_marginLeft="9dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="9dp"
+        android:background="#ff9800"
+        android:textColor="#ffffff"
+        android:textSize="15dp"
+        android:layout_marginBottom="2dp"
+        android:layout_alignParentStart="false"
+        android:paddingTop="4dp" />
+</RelativeLayout>

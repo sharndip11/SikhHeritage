@@ -13,19 +13,82 @@
             android:layout_height="45dp"
             android:background="#ff9800"
             android:textColor="#ffffff"
-            android:text="Quizz"
+            android:text="@string/titre_quiz"
             android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
             android:textStyle="bold"
             android:textSize="33dp"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:id="@+id/titre_quiz"
+            android:enabled="false"
+            android:clickable="false" />
 
         <TextView
             android:layout_width="fill_parent"
-            android:layout_height="75dp"
-            android:text="New Text"
-            android:id="@+id/textView"
+            android:layout_height="wrap_content"
+            android:text="@string/desc_quiz"
+            android:id="@+id/desc_quiz"
             android:layout_gravity="center_horizontal"
             android:background="#ff9800"
+            android:textColor="#ffffff"
+            android:textSize="16dp"
+            android:textStyle="bold|italic"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:padding="4dp" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="1dp"
+            android:background="#ff9800"
+            android:id="@+id/ll_quiz">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Démarer"
+            android:id="@+id/b_start"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="150dp"
+            android:layout_marginBottom="10dp"
+            android:background="#1A237E"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:textStyle="bold"
             android:textColor="#ffffff" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Options"
+            android:id="@+id/b_option"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#1A237E"
+            android:paddingLeft="33dp"
+            android:paddingRight="33dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aide"
+            android:id="@+id/b_help"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="#1A237E"
+            android:paddingLeft="47dp"
+            android:paddingRight="47dp"
+            android:textStyle="bold"
+            android:textColor="#ffffff" />
+        </LinearLayout>
+
     </LinearLayout>
 </ScrollView>

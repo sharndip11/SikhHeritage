@@ -13,41 +13,76 @@
             android:layout_height="45dp"
             android:background="#ff9800"
             android:textColor="#ffffff"
-            android:text="Temples"
+            android:text="@string/titre_temp"
             android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
             android:textStyle="bold"
             android:textSize="33dp"
-            android:textAlignment="center" />
-
-        <TextView
-            android:layout_width="fill_parent"
-            android:layout_height="75dp"
-            android:text="New Text"
-            android:id="@+id/textView"
-            android:layout_gravity="center_horizontal"
-            android:background="#ff9800"
-            android:textColor="#ffffff" />
+            android:textAlignment="center"
+            android:id="@+id/titre_temp"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp" />
 
         <LinearLayout
-            xmlns:android="http://schemas.android.com/apk/res/android"
-            android:layout_height="wrap_content"
-            android:layout_width="fill_parent"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/lll">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/desc_temp"
+                android:id="@+id/textView"
+                android:layout_gravity="center_horizontal"
+                android:background="#ff9800"
+                android:textColor="#ffffff"
+                android:paddingLeft="4dp"
+                android:textStyle="bold|italic"
+                android:layout_marginRight="1dp"
+                android:layout_marginLeft="1dp"
+                android:textSize="16dp" />
+        </LinearLayout>
+
+        <LinearLayout
             android:orientation="horizontal"
-            android:weightSum="1.0">
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+            android:layout_weight="1">
 
-            <ImageButton
+            <TextView
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/imageButton9"
-                android:layout_weight=".5"
-                android:background="@drawable/temp" />
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/temp_1"
+                android:id="@+id/textView11"
+                android:layout_weight="0.5"
+                android:textColor="#ffffff"
+                android:background="#ff9800"
+                android:layout_marginRight="0.75dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="1dp"
+                android:textAlignment="center"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp" />
 
-            <ImageButton
+            <TextView
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/imageButton10"
-                android:layout_weight=".5"
-                android:background="@drawable/temp" />
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/temp_2"
+                android:id="@+id/textView12"
+                android:layout_weight="0.5"
+                android:textColor="#ffffff"
+                android:background="#ff9800"
+                android:layout_marginLeft="0.75dp"
+                android:layout_marginRight="1dp"
+                android:layout_marginTop="1dp"
+                android:textAlignment="center"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp" />
+
         </LinearLayout>
         <LinearLayout
             xmlns:android="http://schemas.android.com/apk/res/android"
@@ -59,16 +94,61 @@
             <ImageButton
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/imageButton11"
+                android:id="@+id/ib_temp1"
                 android:layout_weight=".5"
-                android:background="@drawable/temp" />
+                android:background="@drawable/nankanasahib"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="0.75dp"
+                android:layout_marginTop="1dp"  />
 
             <ImageButton
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/imageButton12"
+                android:id="@+id/ib_temp2"
                 android:layout_weight=".5"
-                android:background="@drawable/temp" />
+                android:background="@drawable/akaaltakht"
+                android:layout_marginLeft="0.75dp"
+                android:layout_marginRight="1dp"
+                android:layout_marginTop="1dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/temp_3"
+                android:id="@+id/textView13"
+                android:layout_weight="0.5"
+                android:textColor="#ffffff"
+                android:background="#ff9800"
+                android:layout_marginRight="0.75dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="1dp"
+                android:textAlignment="center"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/temp_4"
+                android:id="@+id/textView14"
+                android:layout_weight="0.5"
+                android:textColor="#ffffff"
+                android:background="#ff9800"
+                android:layout_marginLeft="0.75dp"
+                android:layout_marginRight="1dp"
+                android:layout_marginTop="1dp"
+                android:textAlignment="center"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp" />
+
         </LinearLayout>
         <LinearLayout
             xmlns:android="http://schemas.android.com/apk/res/android"
@@ -80,16 +160,61 @@
             <ImageButton
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/imageButton13"
+                android:id="@+id/ib_temp3"
                 android:layout_weight=".5"
-                android:background="@drawable/temp" />
+                android:background="@drawable/chamkaursahib"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="0.75dp"
+                android:layout_marginTop="1dp"  />
 
             <ImageButton
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/imageButton14"
+                android:id="@+id/ib_temp4"
                 android:layout_weight=".5"
-                android:background="@drawable/temp" />
+                android:background="@drawable/damdamasahib"
+                android:layout_marginLeft="0.75dp"
+                android:layout_marginRight="1dp"
+                android:layout_marginTop="1dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/temp_5"
+                android:id="@+id/textView15"
+                android:layout_weight="0.5"
+                android:textColor="#ffffff"
+                android:background="#ff9800"
+                android:layout_marginRight="0.75dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="1dp"
+                android:textAlignment="center"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/temp_6"
+                android:id="@+id/textView16"
+                android:layout_weight="0.5"
+                android:textColor="#ffffff"
+                android:background="#ff9800"
+                android:layout_marginLeft="0.75dp"
+                android:layout_marginRight="1dp"
+                android:layout_marginTop="1dp"
+                android:textAlignment="center"
+                android:paddingBottom="4dp"
+                android:paddingTop="4dp" />
+
         </LinearLayout>
         <LinearLayout
             xmlns:android="http://schemas.android.com/apk/res/android"
@@ -101,16 +226,206 @@
             <ImageButton
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/imageButton15"
+                android:id="@+id/ib_temp5"
                 android:layout_weight=".5"
-                android:background="@drawable/temp" />
+                android:background="@drawable/fatehgarh"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="0.75dp"
+                android:layout_marginTop="1dp"  />
 
             <ImageButton
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/imageButton16"
+                android:id="@+id/ib_temp6"
                 android:layout_weight=".5"
-                android:background="@drawable/temp" />
+                android:background="@drawable/hazoorsahib"
+                android:layout_marginLeft="0.75dp"
+                android:layout_marginRight="1dp"
+                android:layout_marginTop="1dp" />
         </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/temp_7"
+                android:id="@+id/textView17"
+                android:layout_weight="0.5"
+                android:textColor="#ffffff"
+                android:background="#ff9800"
+                android:layout_marginRight="0.75dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="1dp"
+                android:textAlignment="center"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/temp_8"
+                android:id="@+id/textView18"
+                android:layout_weight="0.5"
+                android:textColor="#ffffff"
+                android:background="#ff9800"
+                android:layout_marginLeft="0.75dp"
+                android:layout_marginRight="1dp"
+                android:layout_marginTop="1dp"
+                android:textAlignment="center"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:orientation="horizontal"
+            android:weightSum="1.0"
+            android:background="@drawable/hemkunts">
+
+            <ImageButton
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ib_temp7"
+                android:layout_weight=".5"
+                android:background="@drawable/hemkunts"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="0.75dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginBottom="1dp" />
+
+            <ImageButton
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ib_temp8"
+                android:layout_weight=".5"
+                android:background="@drawable/kesgarh_sahib"
+                android:layout_marginLeft="0.75dp"
+                android:layout_marginRight="1dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginBottom="1dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/temp_9"
+                android:id="@+id/textView19"
+                android:layout_weight="0.5"
+                android:textColor="#ffffff"
+                android:background="#ff9800"
+                android:layout_marginRight="0.75dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="1dp"
+                android:textAlignment="center"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/temp_10"
+                android:id="@+id/textView20"
+                android:layout_weight="0.5"
+                android:textColor="#ffffff"
+                android:background="#ff9800"
+                android:layout_marginLeft="0.75dp"
+                android:layout_marginRight="1dp"
+                android:layout_marginTop="1dp"
+                android:textAlignment="center"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:orientation="horizontal"
+            android:weightSum="1.0">
+
+            <ImageButton
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ib_temp9"
+                android:layout_weight=".5"
+                android:background="@drawable/patnasahib"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="0.75dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginBottom="1dp" />
+
+            <ImageButton
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ib_temp10"
+                android:layout_weight=".5"
+                android:background="@drawable/seesganjsahib"
+                android:layout_marginLeft="0.75dp"
+                android:layout_marginRight="1dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginBottom="1dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/temp_11"
+                android:id="@+id/textView21"
+                android:layout_weight="1"
+                android:textColor="#ffffff"
+                android:background="#ff9800"
+                android:layout_marginRight="0.75dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="1dp"
+                android:textAlignment="center"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:layout_gravity="center_horizontal" />
+
+        </LinearLayout>
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:orientation="horizontal"
+            android:weightSum="1.0">
+
+            <ImageButton
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ib_temp11"
+                android:layout_weight=".5"
+                android:background="@drawable/templedor"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="0.75dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginBottom="1dp"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"></LinearLayout>
+
     </LinearLayout>
 </ScrollView>

@@ -4,15 +4,224 @@
     <string name="closeDrawer">Close</string>
 
 <!-- TODO: Remove or change this placeholder text -->
-    <string name="homeFragment">Bienvenu sur SikHeriatge</string>
-    <string name="gursikhjeevanFragment">  </string>
-    <string name="histoireFragment">Page Histoire</string>
-    <string name="fakrekaumFragment">Page Fakre Kaum</string>
-    <string name="gurdwaraFragment">Page Gurdwara</string>
-    <string name="biographieFragment">Page Biographie</string>
-    <string name="faqFragment">Page FAQ</string>
-    <string name="quizzFragment">Page Quizz</string>
-    <string name="actualiteFragment">Page Actualité</string>
-    <string name="caricatureFragment">Page Caricature</string>
+    <string name="titre_home">Bienvenue</string>
+    <string name="desc_home">Le Sikhisme est la 5ième religion au monde
+    ayant <!--\n-->le plus de pratiquants, après le Christianisme, l\'<!--\n-->Islam, l\'Hindouisme
+    et le Bouddhisme.\n\nLe Sikhisme est une religion distincte, monothéiste et indépendante.\n</string>
+
+    <string name="titre_vie_gur">La Vie d\'un Sikh</string>
+    <string name="desc_vie_gur">D\'après un Sikh les prophètes avaient un style de vie exemplaire.
+        C\'est pourquoi il essaie au maximum de leur ressembler : ce style de vie regroupe plusieurs
+        pratiques.</string>
+
+    <string name="vie_gur_1">Dans le Sikhisme, il a eu dix prophètes: les gourous. A une époque où
+        les inégalités sociales étaient à leur comble, tous ont apporté des modifications pour rendre
+        meilleure cette société.</string>
+    <string name="_vg11">1) Gourou Nanak Dev (1469 - 1539): Le Gourou Nanak avait beaucoup voyagé,
+        loin de sa terre natale. Ses voyages missionnaires lui amenèrent de nombreux disciples.
+        Il fonda la ville de Kartarpur, où il passa ses derniers jours sur cette terre après y
+        avoir établi l\'institution du Langar (Cuisine communautaire).\n\n
+        2) Gourou Angad Dev (1504 - 1552): Le successeur de Gourou Nanak Dev, promut l\'usage de la
+        langue Punjabi et de l\'écriture Gurmukhi et renforça la cohésion des Sikhs. Il fonda un
+        nouveau centre à Khadur Sahib.\n\n
+        3) Gourou Amar Dass ( 1479 - 1574): Le troisième Gourou promut le Langar et rendit
+        obligatoire pour chacun de s\'y rendre avant de participer au Sangat (Congrégation)
+        avec pour effet de casser l\'intouchabilité, la discrimination de caste, de religion,
+        de race ... Il établit un autre centre Sikh: Goindwal Sahib. Il interdit les
+        discriminations à l\'encontre des femmes et dut faire face à l\'hostilité des
+        pandits (Brahamanes).\n\n
+        4) Gourou Ram Dass (1534 - 1581): Il fonda la ville de Chak Ram Dass (ou Ramdass Pur)
+        autour du Sarovar (étang) qui donna plus tard son nom à la ville: Amritsar
+        (Lac d\'immortalité: Amritsar devint alors le centre religieux, politique et culturel Sikh)
+        .\n\n
+        5) Gourou Arjan Dev (1563 - 1606): Le cinquième Gourou fit construire à Amritsar, le
+        temple Harmandir Sahib (porte de Dieu) au milieu de l\'étang (Sarovar). Par la suite il
+        regroupa en un seul volume (l\'Adi Granth) les Gurbanis, parole de Waheguru (Dieu), révélés
+        par les Gourous précedents et le Gourou Arjan lui-même, ainsi que certains écrits de Saints
+        en accord avec la révélation du Gourou. Plus tard, c\'est l\'Adi Granth qui sera la base du
+        Gourou Granth Sahib, établi dans sa forme définitive.\nGourou Arjan Dev Ji établit
+        d\'autres centres Sikhs: Tarn Taran, Kartarpur (Jalandhar). La trahison des Hindous
+        et la persécution par les Moghols amenèrent le martyr du Gourou Arjan Dev Ji.\n\n
+        6) Gourou Hargobind (1595 - 1644): Le sixième Gourou établit l\'Akal Takht (Trône de
+        l\'éternel) le 15 Juin 1606 et révéla les conséquences du concept de l\'unité de la
+        vérité spirituelle et du pouvoir temporel (vivre dans la vérité). Il portait deux épées:
+        Une pour symboliser l\'autorité spirituelle (Piri), l\'autre pour symboliser le pouvoir
+        temporel (Miri). Par la suite il fut mis en prison, puis relaché, obtenant du même coup
+        la libération de 52 Rajas Hindous de la prison de Gwallor, les Hindous l\'appelèrent pour
+        cette raison Bandichor (Le Libérateur). Il combattit quatre fois pour la défense du Dharma
+        (Jour du droit et la justice) contre l\'oppression, les abus des Raja Hindous du
+        gouvernement local Moghol. Les quatre guerres se terminèrent toutes par des victoires
+        éclatantes en dépit de la forte supériorité numérique de ses ennemis.\n\n
+        7) Gourou Har Rai (1630 - 16661): Le septième Gourou maintient une armée cohérente
+        de 2200 hommes pour la défense du Dharma Sikh et apprit aux Sikh l\'administration
+        politique.\n\n
+        8) Gourou Har Krishan (1656 - 1664): Il quitta ce monde très jeune et apprit aux Sikhs
+        à ne jamais se compromettre avec les oppresseurs. A cette époque, les Sikhs ouvrirent
+        des dispensaires gratuits pour soiger les pauvres notamment ceux de Delhi.\n\n
+        9) Gourou Tegh Bahadur Dev(1621 - 1675): Le neuvième Gourou établit plusieurs centres
+        Sikhs, le principal étant Anandpur Sahib. Le Gourou Tegh Bahadur sacrifia sa vie comme
+        martyr pour la défense du principe de la liberté de religion des Hindous; Qui appellaient
+        pour cette raison le Sauveur, le Messie des Hindous. Auparavant, il encouragea le
+        développement du commerce et des affaires parmi les Sikhs.\n\n
+        10) Gourou Gobind Singh (1666 - 1708): Le dixième Gourou révéla le Khalsa pur
+        en Punjabi; Ordre militaire Sikh, le terme "Khalsa" est devenu synonyme de vrai
+        Sikhisme le 30 Mars 1699. Il révéla que le Khalsa est souverain et qu\'il n\'existe
+        aucun intermédiaire entre Waheguru (Dieu) et le Khalsa. Cette souveraineté est à la
+        fois religieuse et temporelle. A ce moment, ceux qui choisissent de joindre le Khalsa
+        sont initiés lors d\'un sacrement: Le Khanda di Pahul. Gourou Gobind Singh fit face à
+        l\'hostilité des Hindous qui collaboraient avec le pouvoir qui avait pour but d\'annihilier
+        entre autres la nation Sikhe. Il fit face à plusieurs reprises aux attaques massives de
+        l\'armée Moghole et des Raja Hindous.\n Avant de partir pour les cieux éternels, il
+        transmit la succession de Gourou des Sikhs, au Gourou Granth Sahib et au Gourou Khalsa
+        Panth. Il déclara que la lignée des Gourous humains était terminé car l\'enseignement
+        du Gourou suprême transmis par les dix Gourous humains était suffisant et complet.
+        La vie des dix Gourous était aussi un exemple à suivre pour les Sikhs. Il n\'y avait
+        plus besoin d\'explications complémentaires. Depuis, le Gourou permanent des Sikhs est
+        le Gourou Granth Sahib (Piri, guide spirituel), et le Gourou Khalsa Panth (Miri,
+        religion vécue tous les jours: aspect intemporel).</string>
+    <string name="_vg12">Le Gourou Granth Sahib, est une oeuvre spirituelle. Elle est à la fois
+        considérée comme l\'autorité spiritulle suprême et éternelle ainsi que le maître absolu du
+        sikhisme au-dessus de tout individu vivant. Il est le gourou définitif et éternel des Sikhs.
+        Ceux-ci considèrent que le Bani (Des écrits composant le Gourou Granth Sahib) est une
+        révélation divine, et que toutes les réponses concernant la religion ainsi que la moralité
+        y sont données. \nOn y trouve les compositions de différents hommes saints tirés de toutes
+        les parties de l\'Inde, appartenant à des familles de religions différentes, parlant des
+        langues différentes, suivant des traditions culturelles différentes, et provenant des
+        différentes classes existantes. Leurs écrits témoignent ainsi du message universel de
+        l\'amour et la dévotion au Créateur unique et universel. \nL\'ensemble du Gourou Granth
+        Sahib est écrit dans une forme poétique. Il y a tout un système de musique décrivant mètres,
+        rythme et mélodies qui sensibilisent toute l\'humanité à de magnifiques sons divins.</string>
+
+    <string name="vie_gur_2">Une fois baptisé, un sikh se doit d\'avoir ses cinq articles de foi
+        (Kakaar) en permanence sur lui.</string>
+    <string name="_vg21">
+•	Kesh : Ils représentent les cheveux non coupés. Pour un sikh, laisser pousser ses cheveux naturellement est considéré comme un symbole de respect envers la création de Dieu. En effet, si nos cheveux repoussent autant de fois qu\'on les coupe signifie qu\'ils sont probablement destinés à avoir une certaine longueur. Ils doivent ainsi, comme toutes les autres parties du corps, rester intacts. \n\n
+•	Kangha : C\'est un peigne en bois qui permet de garder les Kesh propres et soignés. De même, il symbolise l\’importance de s\’occuper du corps créé par Dieu. \n\n
+•	Kirpan : C\'est une épée permettant la légitime défense et symbolisant le courage. Sa fonction n\'est pas de créé un sentiment de peur chez autrui, mais de lutter contre l\'injustice et de défendre les plus faibles que soi. \n\n
+•	Kacchera : C\'est un sous-vêtement sikh. Il symbolise principalement la pudeur et la chasteté.</string>
+
+    <string name="vie_gur_3">Le premier prophète sikh, Gourou Nanak Dev, a établi trois principaux axes de conduite quotidienne : \n\n
+•	Méditation (Naam Japna) : remémoration constante de Dieu car comme un corps est mort sans la vie, la vie elle-même est morte sans Naam (Nom de Dieu). L\'essentiel est le Naam. \n
+•	Gagner sa vie de façon honnête (Kirat Karni) \n
+•	Partager (Vand Chakna) : Partager les fruits de son travail comme signe d\'amour et de compassion envers l\'espèce humaine.</string>
+    <string name="_vg31">Pour un sikh, quatre pêchers (Bajjar kurehta) ne doivent en aucun cas être commis. S\'il enfreint ne serait-ce qu\'une de ces erreurs, il devra être rebaptisé. Il s\'agit de : \n\n
+•	Couper ses cheveux, barbe ou poils \n
+•	Manger de la viande \n
+•	Commettre un adultère et/ou un viol \n
+•	Consommer du tabac et/ou de la drogue</string>
+
+    <string name="vie_gur_4">Le Nitnem (Prière quotidienne) est le recueil de composition spirituelle qu\'un Sikh doit réciter chaque jour.</string>
+    <string name="_vg41">Le matin :\n
+•	Jap Ji Sahib \n
+•	Jaap Sahib \n
+•	Savayé Sahib\n
+•	Chaupai Sahib\n
+•	Anand Sahib\n\n
+
+        Le soir :\n
+
+•	Rehraas Sahib\n\n
+
+        Avant le coucher :\n
+
+•	Kirtan Sohila</string>
+
+    <string name="vie_gur_5">La vie d\'un Sikh se découpe en quatre étapes. Celles-ci sont :</string>
+    <string name="_vg51">
+•	Janam Sanskaar (Cérémonie de naissance)\n
+•	Amrit Sanchaar (Cérémonie de baptême)\n
+•	Anand Karaj (Cérémonie de mariage)\n
+•	Antim Sanskaar (Cérémonie funéraire)
+</string>
+
+    <string name="vie_gur_6">L\'institution de la Sangat et du Langar:</string>
+    <string name="_vg61">
+•	Société des saints (Sangat) :
+Sangat veut dire assemblée ou congrégation. Toute personne, de toutes castes et croyances
+        confondues, peut devenir un membre de la Sangat. Tous les services peuvent être
+        exécutés par les Sikhs et les non-Sikhs, à l\'exception du rituel du baptême. La
+        Sangat n\'est pas simplement un rassemblement de dévots, ni un lieu pour rechercher
+        un salut personnel et la béatitude, mais elle a été érigée dans le but de ré-orienter
+        totalement la vie des individus et de la société vers une existence délibérément
+        créative.</string>
+    <string name="_vg62">•	La cuisine communautaire (Langar) :
+Elle a été initiée par le premier prophète sikh, Gourou Nanak Dev, et sa consolidation et son extension ont été réalisées par le troisième prophète. Les règles du Langar exigent que tous doivent s\'asseoir sur la même ligne et partager la même nourriture sans distinction entre riches et pauvres ou hommes et femmes.
+L\'institution du Langar a donné une dimension séculière au Sangat. Elle a traduit le principe d\'égalité, et elle a aussi servi de « ciment » pour lier entre eux les partisans du Sikhisme. Cette institution offre une protection contre le principe social immoral d\'intouchabilité qui est une terrible conséquence du système des castes.
+Cette institution est gérée aves l\'aide et les contributions de tous, et pas seulement par un groupe de privilégiés. La cuisine libre où le riche et le pauvre peuvent être ensemble, a suscité un esprit de charité à grande échelle. \n
+
+Pour donner un chiffre, le Temple d\'Or situé à Amritsar en Inde offre quotidiennement plus de 100 000 repas gratuits par jour, entièrement financer par des dons et des bénévoles.</string>
+
+    <string name="titre_hist">Histoire</string>
+    <string name="desc_hist">Comme chaque religion, la religion sikhe possède également sa propre
+        histoire. Certains évènements ont été plus marquants que d\'autres, et ont ainsi permis de
+        découper l\'histoire en plusieurs périodes distinctes.</string>
+    <string name="hist_1">[ Header Histoire 1 ]</string>
+    <string name="hist_2">[ Header Histoire 2]</string>
+    <string name="hist_3">[ Header Histoire 3 ]</string>
+    <string name="_h11">[ Premiere partie de l\'Histoire ]</string>
+    <string name="_h12">[ Deuxieme partie de l\'Histoire ]</string>
+    <string name="_h21">[ Troisieme partie de l\'Histoire ]</string>
+    <string name="_h31">[ Quatrieme partie de l\'Histoire ]</string>
+
+    <string name="titre_bio">Biographies</string>
+    <string name="desc_bio">Certains hommes ainsi que certaines femmes ont eu un rôle très
+        important dans l\'histoire de la religion sikhe. Leur dignité morale, leur service et
+        leur soutien des valeurs sikhes sont une grande source d\'inspiration.</string>
+    <string name="bio_1">Née près de Lahore au Pakistan, elle était la grande soeur du premier
+        prophète sikh (Gourou Nanak Dev). Dès le plus jeune âge de son frère, elle vit en lui la
+        lumière de Dieu mais elle ne révéla pas ce secret. Elle fut le premier disciple de son
+        frère.</string>
+    <string name="bio_2">Mariée au deuxième prophète sikh (Gourou Angad Dev), ils eurent quatre
+        enfants. Elle joua un rôle très important dans la préparation et la distribution du langar
+        (cuisine communautaire gratuite).</string>
+    <string name="bio_3">Elle a mené des soldats sikhs contre l\'empire moghol en 1705 pendant la
+        guerre de Muktsar: elle est considérée comme une grande guerrière sikhe. Elle est également
+        connue pour avoir persuadé les Sikhs qui avaient abandonné le dixième prophète sikh
+        (Gourou Gobind Singh) dans des moments difficiles, de présenter ds excuses pour leur
+        action.</string>
+    <string name="bio_4">Elle est la mère du Khalsa (Ensemble des Sikhs baptisés). Son père avait
+        pris l\'engagement de la marier au dixième prophète (Gourou Gobind Singh Ji) sans savoir
+        qu\'il était déjà marier. Ne pouvant se remarier, il agréa que Mata Sahib Kaur pouvait
+        rester avec lui. Cependant, ils ne pouvaient ni se marier ni avoir d\'enfants. Mata Sahib
+        Kaur servit tout de même la sangat (communauté sikhe) avec adoration, et pour la glorifier,
+        Gourou Gobind Singh en fit la mère du Khalsa.</string>
+    <string name="bio_5">[ Cinquieme Biographie ]</string>
+    <string name="bio_6">[ Sixieme Biographie ]</string>
+    <string name="bio_7">[ Septieme Biographie ]</string>
+    <string name="bio_8">[ Huitieme Biographie ]</string>
+
+    <string name="titre_temp">Temples</string>
+    <string name="desc_temp">Le lieu de culte sikh (ou temple) est appelé Gurdwara, signifiant
+        Maison du Gourou. Tout le monde, indépendamment de caste, couleur, sexe, religion ou
+        nationalité peut y entrer  et joindre les services. Gourou Granth Sahib, installé à la plus
+        haute plate-forme, préside le Gurdwara. Avant d\'y entrer, on doit se déchausser, se laver
+        les pieds, les mains et le visage et se couvrir la tête comme signe de respect.</string>
+    <string name="temp_1">Nankana Sahib</string>
+    <string name="temp_2">Akaaltakht</string>
+    <string name="temp_3">Chamkaur Sahib</string>
+    <string name="temp_4">Damdama Sahib</string>
+    <string name="temp_5">Fatehgarh</string>
+    <string name="temp_6">Hazoor Sahib</string>
+    <string name="temp_7">Hemkunts</string>
+    <string name="temp_8">Kesgarh Sahib</string>
+    <string name="temp_9">Patna Sahib</string>
+    <string name="temp_10">Seesganj Sahib</string>
+    <string name="temp_11">Temple d\'Or</string>
+
+    <string name="titre_quiz">Quizz</string>
+    <string name="desc_quiz">Un gentil quizz vous attend pour mettre à rude épreuve les
+        connaissances que vous venez d\'acquérir. Good Luck !</string>
+    <string name="tv_start">Démarer</string>
+    <string name="tv_option">Option</string>
+    <string name="tv_help">Texte Aide</string>
+
+    <string name="titre_faq">FAQ</string>
+    <string name="desc_faq">Vous avez ici un espace ouvert où vous pouvez poser ou répondre à des
+        questions, venir en aide aux personnes en besoin… Have Fun !</string>
+
+    <string name="titre_actu">Actualités</string>
+    <string name="desc_actu">Vous avez ici un espace ouvert où vous pouvez poser ou répondre à
+        des questions, venir en aide aux personnes en besoin… Have Fun !</string>
+
 
 </resources>

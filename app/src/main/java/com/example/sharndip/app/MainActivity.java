@@ -1,5 +1,7 @@
 package com.example.sharndip.app;
 
+import android.content.pm.ActivityInfo;
+import android.os.Handler;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v4.widget.DrawerLayout;
@@ -14,6 +16,7 @@ import android.view.animation.AnimationUtils;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.Toast;
 import android.widget.ViewFlipper;
 
 import java.util.ArrayList;
@@ -25,9 +28,43 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     private static ListView navList;
     private static FragmentTransaction fragmentTransaction;
     private static FragmentManager fragmentManager;
+    public boolean _bool = true;
+    boolean doubleBackToExitPressedOnce = false;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    public void onBackPressed() {                                                                 //GESTION DE L'ACTION DU BOUTON "RETOUR"
+        if (R.layout.fragment_gursikh_jeevan != 0||
+                R.layout.fragment_histoire != 0 ||
+                R.layout.fragment_biographies != 0 ||
+                R.layout.fragment_gurdwara != 0 ||
+                R.layout.fragment_faq != 0 ||
+                R.layout.fragment_quizz != 0 ||
+                R.layout.fragment_actualite != 0) {
+            MainActivity.loadSelection(0);
+            _bool = false;
+        }
+
+        if (_bool == false) {
+            if (doubleBackToExitPressedOnce) {
+                super.onBackPressed();
+                _bool = true;
+                return;
+            }
+
+            this.doubleBackToExitPressedOnce = true;
+            Toast.makeText(this, "Double taper pour fermer", Toast.LENGTH_SHORT).show();
+
+            new Handler().postDelayed(new Runnable() {
+                @Override
+                public void run() {
+                    doubleBackToExitPressedOnce=false;
+                }
+            }, 500);
+        }
+    }
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {                            //CREATION DE LA LISTVIEW QUI CONTIENDRA LES DIFFERENTES RUBRIQUE DU MENU LATERAL
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
@@ -36,8 +73,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
         navList = (ListView)findViewById(R.id.navList);
         ArrayList<String> navArray = new ArrayList<String>();
-        navArray.add("Home");
-        navArray.add("Vie d'un Gursikh");
+        navArray.add("Accueil");
+        navArray.add("Vie d'un Sikh");
         navArray.add("Histoire");
         navArray.add("Biographies");
         navArray.add("Temples");
@@ -63,8 +100,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
     }
 
-    public static void loadSelection(int i){
-
+    public static void loadSelection(int i){                                                //SELECTEUR DE RUBRIQUE DEPUIS LA LISTVIEW CREE PRECEDEMENT
         navList.setItemChecked(i,true);
 
         switch (i) {
@@ -150,7 +186,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     }
 
     @Override
-    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {              //ACTION LORS DU CLIQUE SUR UNE RUBRIQUE
 
         loadSelection(position);
 
