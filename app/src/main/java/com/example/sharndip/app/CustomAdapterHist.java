@@ -51,22 +51,15 @@ public class CustomAdapterHist extends BaseAdapter implements ListAdapter {
     public View getView(int position, View convertView, ViewGroup parent) {
         Holder holder=new Holder();
         if (_index == 0) {
-            this.rowView = inflater.inflate(R.layout.fragment_histoire_itit, null);
-            holder.tv=(TextView) rowView.findViewById(R.id.textView1);
-            holder.img=(ImageView) rowView.findViewById(R.id.imageView1);
-            holder.tv2=(TextView) rowView.findViewById(R.id.textView2);
-            holder.img2=(ImageView) rowView.findViewById(R.id.imageView2);
-            holder.tv.setText(result[position]);
-            holder.img.setImageResource(imageId[position]);
-            position++;
-            holder.tv2.setText(result[position]);
-            holder.img2.setImageResource(imageId[position]);
-        } else if (_index == 1) {
             this.rowView = inflater.inflate(R.layout.fragment_histoire_it, null);
             holder.tv=(TextView) rowView.findViewById(R.id.textView1);
             holder.img=(ImageView) rowView.findViewById(R.id.imageView1);
             holder.tv.setText(result[position]);
             holder.img.setImageResource(imageId[position]);
+        } else if (_index == 1) {
+            this.rowView = inflater.inflate(R.layout.fragment_histoire_t, null);
+            holder.tv=(TextView) rowView.findViewById(R.id.textView1);
+            holder.tv.setText(result[position]);
         } else if (_index == 2) {
             this.rowView = inflater.inflate(R.layout.fragment_histoire_t, null);
             holder.tv=(TextView) rowView.findViewById(R.id.textView1);

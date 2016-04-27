@@ -155,13 +155,52 @@ Pour donner un chiffre, le Temple d\'Or situé à Amritsar en Inde offre quotidi
     <string name="desc_hist">Comme chaque religion, la religion sikhe possède également sa propre
         histoire. Certains évènements ont été plus marquants que d\'autres, et ont ainsi permis de
         découper l\'histoire en plusieurs périodes distinctes.</string>
-    <string name="hist_1">[ Header Histoire 1 ]</string>
-    <string name="hist_2">[ Header Histoire 2]</string>
-    <string name="hist_3">[ Header Histoire 3 ]</string>
-    <string name="_h11">[ Premiere partie de l\'Histoire ]</string>
-    <string name="_h12">[ Deuxieme partie de l\'Histoire ]</string>
-    <string name="_h21">[ Troisieme partie de l\'Histoire ]</string>
-    <string name="_h31">[ Quatrieme partie de l\'Histoire ]</string>
+    <string name="hist_1">Banda Singh Bahadur (né Lachman Dev , également connu sous le nom
+        de Banda Bahudar , Lachman Das et Madho Das ) (27 Octobre 1670-9 Juin 1716, Delhi ) était un Sikh commandant militaire.</string>
+    <string name="hist_2">L\’opération Blue Star (3–6 juin 1984) est une opération militaire
+        indienne qui fut dirigée par Indira Gandhi, Premier ministre de l\'Inde, ayant pour but
+        d\’éliminer les Sikhs séparatistes du Temple d\'Or en Amritsar. Les insurgés, menés par
+        Jarnail Singh Bhindranwale, étaient accusés d\'avoir entreposé des armes dans le temple
+        sikh.\n\n </string>
+    <string name="hist_3">Sant Jarnail Singh Bhindranwale ( né Jarnail Singh Brar (2 Juin 1947-6
+        Juin 1984) était le chef du Damdami Taksal (Temple Sikh) et est remarquable pour son
+        soutien à la résolution de Anandpur Sahib . Il a plaidé contre la consommation d\’alcool,
+        de drogues et de laxisme dans les pratiques religieuses, telles que la coupe de Kesh par
+        les jeunes sikhs. Il a fermement condamné l\’ article 25 des minorités déclarant de la
+        constitution indienne , tels que les sikhs , les jaïns et les bouddhistes dans le cadre
+        de l\’hindouisme.\n </string>
+    <string name="_h11">À 15 ans , il a quitté la maison pour devenir un ascète , et a été donné
+        le nom \'\' Madho Das \'\'. Il a établi un monastère à Nanded , sur la rive de la rivière
+        Godavari , où en Septembre 1708 , il a été visité par, et est devenu un disciple du
+        dixième prophète (Gourou Gobind singh) , qui lui a donné le nouveau nom de Banda Singh
+        Bahadur. Armé avec la bénédiction et l\’ autorité du dixième prophète, il a rassemblé
+        une force de combat et a mené la lutte contre l\’ Empire moghol . </string>
+    <string name="_h12">Sa première action
+        majeure a été le sac de la capitale moghole provinciale, Samana , en Novembre 1709.
+        Après avoir établi son autorité dans le Punjab , Banda Singh Bahadur a aboli lezamindari
+        système, et les droits de propriété accordés aux travailleurs de la terre. Il a été
+        capturé par les Moghols et torturé à mort en 1716.</string>
+    <string name="_h21">L\’opération a été réalisée par les troupes de l\'Armée Indienne avec
+        des chars de combat et des véhicules armés. Cette opération militaire a suscité d\'immenses
+        controverses, et les justifications du gouvernement sur le timing et le style d\’attaque
+        sont encore hautement débattues. L\'opération Blue Star figure parmi le top 10 des hontes
+        politiques par le magazine « India Today ».\n\n Les rapports officiels mentionnent que le
+        nombre de décès parmi l\’Armée Indienne s\'élève à 83 et à 492 chez les civils. Mais selon
+        certaines estimations les morts civils seraient véritablement au nombre de 1500. De plus,
+        le CBI est considéré responsable de la saisie d\’artéfacts historiques et de manuscrits
+        dans la bibliothèque de référence Sikh avant de la brûler.\n\n L\’assaut militaire
+        conduisit à un tollé parmi les Sikhs à travers le monde et la tension grandissante
+        qui suivit l\’action mena à des agressions envers des membres de la communauté Sikh
+        en Inde. Certains soldats Sikh de l\’Armée indienne se sont mutinés, nombre de Sikhs
+        ont démissionné de leurs fonction dans l\'armée ou dans l\’administration civile, et
+        quelques-uns ont retourné les récompenses et honneurs qu\’ils avaient reçus du Gouvernement
+        indien. Quatre mois après l\’opération, le 31 octobre 1984, Indira Gandhi a été assassinée
+        par deux de ses gardes du corps ce qui est vu comme un acte de vengeance. À la suite de son
+        assassinat, plus de 11.000 Sikhs dont 3.000 à New Delhi ont été tués durant le pogrom anti-
+        Sikh . Au sein de la communauté sikh elle-même, l\’opération Blue Star a pris une
+        importance historique considérable et est souvent comparée à ce que les Sikhs appellent
+        « Le Grand Massacre », le massacre de 1761 des Sikhs par l\’envahisseur afghan Ahmad Shâh.
+        \n\n </string>
 
     <string name="titre_bio">Biographies</string>
     <string name="desc_bio">Certains hommes ainsi que certaines femmes ont eu un rôle très
@@ -185,10 +224,50 @@ Pour donner un chiffre, le Temple d\'Or situé à Amritsar en Inde offre quotidi
         rester avec lui. Cependant, ils ne pouvaient ni se marier ni avoir d\'enfants. Mata Sahib
         Kaur servit tout de même la sangat (communauté sikhe) avec adoration, et pour la glorifier,
         Gourou Gobind Singh en fit la mère du Khalsa.</string>
-    <string name="bio_5">[ Cinquieme Biographie ]</string>
-    <string name="bio_6">[ Sixieme Biographie ]</string>
-    <string name="bio_7">[ Septieme Biographie ]</string>
-    <string name="bio_8">[ Huitieme Biographie ]</string>
+    <string name="bio_5">Bhai Taru Singh est un martyr très important chez les sikhs. Il a redéfini l\'importance des Kesh
+
+(cheveux non coupés) en acceptant de se faire enlever le cuir chevelu plutôt que de se faire
+
+couper ses cheveux.</string>
+    <string name="bio_6">Littéralement les quatre princes, il s\'agit des fils du dixième et dernier prophète sikh, Gourou
+
+Gobind Singh.
+
+Ils se sont sacrifiés par binôme: les deux plus grands d\'un côté et les deux cadets de l\'autre.
+
+Âgés de 18 et 14 ans, Ajit Singh et Jujhar Singh ont perdus la vie en pleine bataille (à Chamkaur
+
+Sahib). Une armée de seulement quarante sikhs y avait combattu contre plus de 1000 moghols.
+
+Âgés de 6 et 9 ans, Zoravaar Singh et Fateh Singh ont quant à eux été murés vivants. Leur
+
+infraction étant ne pas vouloir se convertir à l\'Islam.</string>
+    <string name="bio_7">Il s\’agit d’un père et de son fils. Sous le règne de Yahia Khan (un empereur moghol), tous les
+
+deux ont été emprisonnés sous de fausses allégations. Il leur a été proposé d\’embrasser l\’Islam
+
+pour sauver leur vie mais Bhai Subeg Singh et Bhai Shahbaaz Singh ont refusé de renoncer à
+
+leur foi. Leurs corps ont été tour à tour brisés entre deux roues.</string>
+    <string name="bio_8">Bhai Mati Daas et Bhai Sati Daas étaient deux frères. Ces trois sikhs étaient arrêtés en même
+
+temps que le neuvième prophète sikh, Gourou Tegh Bahadur, alors qu\’il allait se faire martyr
+
+pour sauver les hindous des persécutions faites par les empires moghols de ces temps.
+
+Tous les trois ont été tués de manière cruelle, brutale et inhumaine. Bhai Sati Daas a été
+
+enveloppé dans du coton et mis à feu par le bourreau. Bhai Mati Daas a été coupé en deux à
+
+l\’aide d\’une scie. Et, Bhai Dyaala a été « bouilli » vivant dans un énorme chaudron.</string>
+    <string name="titre_perso_1">Bebe Nanaki</string>
+    <string name="titre_perso_2">Mata Khiwi</string>
+    <string name="titre_perso_3">Mai Bhago</string>
+    <string name="titre_perso_4">Mata Sahib</string>
+    <string name="titre_perso_5">Bhai Taru Singh</string>
+    <string name="titre_perso_6">Chaar Sahibzaade</string>
+    <string name="titre_perso_7">Bhai Subeg Singh</string>
+    <string name="titre_perso_8">Bhai Mati Daas</string>
 
     <string name="titre_temp">Temples</string>
     <string name="desc_temp">Le lieu de culte sikh (ou temple) est appelé Gurdwara, signifiant
@@ -222,6 +301,10 @@ Pour donner un chiffre, le Temple d\'Or situé à Amritsar en Inde offre quotidi
     <string name="titre_actu">Actualités</string>
     <string name="desc_actu">Vous avez ici un espace ouvert où vous pouvez poser ou répondre à
         des questions, venir en aide aux personnes en besoin… Have Fun !</string>
+    <string name="pt_actu">Actualité:\n
+- Précédemment toute la communauté Sikh a célébrer le Nagar Kirtan ( ... ) dans la ville de Bobigny\n\n
+
+- Le 23 Avril: célébration du Festival de Vasakhi a la mairie de Paris 20 ( Gambeta)</string>
 
 
 </resources>

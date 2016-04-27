@@ -52,10 +52,10 @@
             android:layout_weight="1">
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="Personalité 1"
+                android:text="@string/titre_perso_1"
                 android:id="@+id/textView11"
                 android:layout_weight="0.5"
                 android:textColor="#ffffff"
@@ -68,10 +68,10 @@
                 android:paddingBottom="4dp" />
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="Personalité 2"
+                android:text="@string/titre_perso_2"
                 android:id="@+id/textView12"
                 android:layout_weight="0.5"
                 android:textColor="#ffffff"
@@ -121,10 +121,10 @@
             android:layout_weight="1">
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="Personalité 3"
+                android:text="@string/titre_perso_3"
                 android:id="@+id/textView13"
                 android:layout_weight="0.5"
                 android:textColor="#ffffff"
@@ -137,10 +137,10 @@
                 android:paddingBottom="4dp" />
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="Personalité 4"
+                android:text="@string/titre_perso_4"
                 android:id="@+id/textView14"
                 android:layout_weight="0.5"
                 android:textColor="#ffffff"
@@ -190,10 +190,10 @@
             android:layout_weight="1">
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="Personalité 5"
+                android:text="@string/titre_perso_5"
                 android:id="@+id/textView15"
                 android:layout_weight="0.5"
                 android:textColor="#ffffff"
@@ -206,10 +206,10 @@
                 android:paddingBottom="4dp" />
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="Personalité 6"
+                android:text="@string/titre_perso_6"
                 android:id="@+id/textView16"
                 android:layout_weight="0.5"
                 android:textColor="#ffffff"
@@ -260,10 +260,10 @@
             android:layout_weight="1">
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="Personalité 7"
+                android:text="@string/titre_perso_7"
                 android:id="@+id/textView17"
                 android:layout_weight="0.5"
                 android:textColor="#ffffff"
@@ -276,10 +276,10 @@
                 android:paddingBottom="4dp" />
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceMedium"
-                android:text="Personalité 8"
+                android:text="@string/titre_perso_8"
                 android:id="@+id/textView18"
                 android:layout_weight="0.5"
                 android:textColor="#ffffff"

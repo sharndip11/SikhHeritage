@@ -25,10 +25,23 @@
 
         <TextView
             android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:layout_height="wrap_content"
             android:text="@string/desc_actu"
             android:id="@+id/textView"
             android:layout_gravity="center_horizontal"
+            android:background="#ff9800"
+            android:textColor="#ffffff"
+            android:textSize="16dp"
+            android:textStyle="bold|italic"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:padding="4dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/pt_actu"
+            android:id="@+id/textView9"
             android:background="#ff9800"
             android:textColor="#ffffff"
             android:textSize="16dp"

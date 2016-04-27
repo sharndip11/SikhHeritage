@@ -25,12 +25,12 @@ public class HistoireFragment extends Fragment {                                
     public static int [] prgmNameList2={string._vg21};
     public static int [] prgmImages3={};
     public static int [] prgmNameList3={string._vg31};*/
-    public static int [] prgmImages1={drawable.quizz, drawable.quizz};
+    public static int [] prgmImages1={drawable.histoire};
     public static int [] prgmNameList1={R.string._h11, string._h12};
-    public static int [] prgmImages2={drawable.quizz};
+    public static int [] prgmImages2={};
     public static int [] prgmNameList2={string._h21};
     public static int [] prgmImages3={};
-    public static int [] prgmNameList3={string._h31};
+    public static int [] prgmNameList3={};
     public static int [][] prgmimag_tab = {prgmImages1, prgmImages2, prgmImages3};
     public static int [][] prgmnl_tab = {prgmNameList1, prgmNameList2, prgmNameList3};
 
@@ -65,11 +65,11 @@ public class HistoireFragment extends Fragment {                                
                 if (i > 0) {
                     i--;
                     sa.setText(tab[i]);
-                    lv.setAdapter(new CustomAdapter(getContext(), prgmnl_tab[i], prgmimag_tab[i], i));
+                    lv.setAdapter(new CustomAdapterHist(getContext(), prgmnl_tab[i], prgmimag_tab[i], i));
                 } else {
                     i = 2;
                     sa.setText(tab[i]);
-                    lv.setAdapter(new CustomAdapter(getContext(), prgmnl_tab[i], prgmimag_tab[i], i));
+                    lv.setAdapter(new CustomAdapterHist(getContext(), prgmnl_tab[i], prgmimag_tab[i], i));
                 }
                 //Toast.makeText(getContext(), "Previous", Toast.LENGTH_SHORT).show();
             }
@@ -82,11 +82,11 @@ public class HistoireFragment extends Fragment {                                
                 if (i < 2) {
                     i++;
                     sa.setText(tab[i]);
-                    lv.setAdapter(new CustomAdapter(getContext(), prgmnl_tab[i], prgmimag_tab[i], i));
+                    lv.setAdapter(new CustomAdapterHist(getContext(), prgmnl_tab[i], prgmimag_tab[i], i));
                 } else {
                     i = 0;
                     sa.setText(tab[i]);
-                    lv.setAdapter(new CustomAdapter(getContext(), prgmnl_tab[i], prgmimag_tab[i], i));
+                    lv.setAdapter(new CustomAdapterHist(getContext(), prgmnl_tab[i], prgmimag_tab[i], i));
                 }
                 //Toast.makeText(getContext(), "Next", Toast.LENGTH_SHORT).show();
             }

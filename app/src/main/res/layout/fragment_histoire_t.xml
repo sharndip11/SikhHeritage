@@ -7,7 +7,7 @@
     <TextView
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:id="@+id/textView9"
+        android:id="@+id/textView1"
         android:layout_gravity="center"
         android:background="#ff9800"
         android:padding="4dp"
